@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="style.css">
+    <title>FatecFlix v2</title>
+  </head>
+  <body>
+
+      <nav><button id="preto_branco"><img class="bimg" src="./ACD/preto_e_branco.png" alt=""></button>
+        <button id="aumentar-texto"><img class="bimg" src="./ACD/a_mais.png" alt=""></button>
+        <button  id="diminuir-texto"><img class="bimg" src="./ACD/a_menos.png" alt=""></button>
+        <button id="alternar-contraste"><img class="bimg" src="./ACD/alto_contraste.png" alt=""></button>
+
+    </nav>
+    <div id="root"></div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+    <img class="imagem" src="ACD/330px-BallonKathedrale01_edit.jpg" alt="">
+    <script src="eventos.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+
+.bimg{
+  height: 60px;
+}
+
+.preto_branco{
+  filter: grayscale(100%);
+}
+
+.alto-contraste{
+  background-color: black;
+  color: white;
+
+}
+
+.alto-contraste a{
+  color: yellow;
+}
