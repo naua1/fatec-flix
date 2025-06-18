@@ -1,6 +1,6 @@
 
 .bimg{
-  height: 60px;
+  height: 30px;
 }
 
 .preto_branco{
@@ -15,4 +15,17 @@
 
 .alto-contraste a{
   color: yellow;
+}
+
+.ace{
+  position: fixed;
+  padding: 5px;
+  width: 100vw;
+  display:flex ;
+  justify-content: end;
+  margin-top: 70px;
+ 
+}
+nav{
+  padding: 10px;
 }
